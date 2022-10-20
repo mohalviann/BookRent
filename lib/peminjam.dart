@@ -11,7 +11,7 @@ class Peminjam {
   String? buku;
 
   Peminjam({this.id, this.nama, this.nik, this.alamat, this.nohp, this.buku});
-
+  // membuat  variabel bertipe data map
   Map<String, dynamic> toMap() {
     var map = Map<String, dynamic>();
 
@@ -26,7 +26,7 @@ class Peminjam {
 
     return map;
   }
-
+  // membuat factory const yang berguna untuk mengembalikan class yang sudah ada atau subclass
   factory Peminjam.fromMap(Map<String, dynamic> map) {
     return Peminjam(
       id: map['id'],

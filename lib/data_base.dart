@@ -49,7 +49,6 @@ class DataBaseKu {
   //Memasukkan (insert) ke database
   Future<int?> insertPeminjam(Peminjam kontak) async {
     var dbServer = await _data;
-    print("Sini");
     return await dbServer!.insert(tabelNama, kontak.toMap());
   }
 
