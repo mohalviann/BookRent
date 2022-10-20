@@ -10,6 +10,7 @@ class tampil extends StatefulWidget {
   State<tampil> createState() => _tampilState();
 }
 
+// membuat splash screen (tampilan awal program)
 class _tampilState extends State<tampil> {
   @override
   Widget build(BuildContext context) {

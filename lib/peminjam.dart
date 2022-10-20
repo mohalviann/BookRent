@@ -9,7 +9,8 @@ class Peminjam {
   String? alamat;
   String? nohp;
   String? buku;
-
+  
+  // memanggil parent variabel
   Peminjam({this.id, this.nama, this.nik, this.alamat, this.nohp, this.buku});
   // membuat  variabel bertipe data map
   Map<String, dynamic> toMap() {
